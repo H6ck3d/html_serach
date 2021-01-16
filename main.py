@@ -26,7 +26,8 @@ print(soup.a['href'])
 
 absaetze = soup.find_all('a') # Speichert alle Absätze als Liste
 
-print(absaetze)
+# print(absaetze)
+# schreibt ale html Absätze in die console
 
 for absatz in absaetze: # Loopt über die Liste
     print(absatz.text) # Gibt jeden Absatz in der Konsole aus
