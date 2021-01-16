@@ -22,7 +22,6 @@ print(USER_INP)
 # Example Domain
 
 print(soup.a['href'])
-# http://www.iana.org/domains/example
 
 absaetze = soup.find_all('a') # Speichert alle Absätze als Liste
 
