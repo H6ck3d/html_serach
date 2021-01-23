@@ -36,7 +36,7 @@ for absatz in absaetze: # Loopt über die Liste
 
 def code1():
     code1.config(text='Danke!')
-    print("fick dich!")
+    print("Hello World!")
     exit()
 fenster = Tk()
 code1 = Button(fenster, text='code1', command=code1)
